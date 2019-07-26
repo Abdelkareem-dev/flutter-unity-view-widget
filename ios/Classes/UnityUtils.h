@@ -2,6 +2,7 @@
 // Created by rex on 15/03/2019.
 //
 
+/*
 #ifndef FLUTTER_UNITY_WIDGET_UNITYUTILS_H
 #define FLUTTER_UNITY_WIDGET_UNITYUTILS_H
 
@@ -42,3 +43,4 @@ void UnityResumeCommand();
 
 #endif //FLUTTER_UNITY_WIDGET_UNITYUTILS_H
 
+*/

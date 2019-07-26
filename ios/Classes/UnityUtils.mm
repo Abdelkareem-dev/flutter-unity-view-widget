@@ -1,3 +1,4 @@
+/*
 #include "RegisterMonoModules.h"
 #include "RegisterFeatures.h"
 #include <csignal>
@@ -174,3 +175,4 @@ extern "C" void onUnityMessage(const char* message)
 }
 
 @end
+*/

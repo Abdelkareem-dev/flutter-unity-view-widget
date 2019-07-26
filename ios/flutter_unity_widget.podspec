@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'flutter_unity_widget'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Flutter unity 3D widget for embedding unity in flutter'
   s.description      = <<-DESC
 Flutter unity 3D widget for embedding unity in flutter
@@ -13,9 +13,9 @@ Flutter unity 3D widget for embedding unity in flutter
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
-  s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-
-  s.ios.deployment_target = '8.0'
+  s.public_header_files = 'Classes/**/*.h'
+  s.swift_version = '4.1'
+  s.ios.deployment_target = '9.0'
 end
 

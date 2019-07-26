@@ -1,20 +1,15 @@
+//
+//  FlutterUnityWidgetPlugin.m
+//  flutter_unity_widget
+//
+//  Created by Thomas Stockx on 7/25/19.
+//
+
 #import "FlutterUnityWidgetPlugin.h"
 #import <flutter_unity_widget/flutter_unity_widget-Swift.h>
 
+@implementation FlutterUnityWidgetPlugin : NSObject
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-  FlutterNativeWebFactory* webviewFactory =
-      [[FlutterNativeWebFactory alloc] initWithMessenger:registrar.messenger];
-  [registrar registerViewFactory:webviewFactory withId:@"unity_view"];
-}
-
-
-/*
-#import "FlutterUnityWidgetPlugin.h"
-#import <flutter_unity_widget/flutter_unity_widget-Swift.h>
-
-@implementation FlutterUnityWidgetPlugin
-+ (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-  [SwiftFlutterUnityWidgetPlugin registerWithRegistrar:registrar];
+    [FlutterUnityPlugin registerWithRegistrar:registrar];
 }
 @end
-*/
