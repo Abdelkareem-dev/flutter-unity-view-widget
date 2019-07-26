@@ -190,11 +190,6 @@ DEAD_CODE_STRIPPING = YES;
 ```
 TODO
 ```
-5. Add the following to ios/Pods/Target Support Files/flutter_unity_widget/flutter_unity_widget.xcconfig:
-```
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../UnityExport/Classes" "${PODS_ROOT}/../UnityExport/Classes/Unity" "$${PODS_ROOT}/../Classes/Native" "${PODS_ROOT}/../UnityExport/Libraries" "${PODS_ROOT}/../UnityExport/Libraries/libil2cpp/include" ${PODS_HEADER_PATHS};
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../UnityExport/Libraries" "${PODS_ROOT}/../UnityExport/Libraries/libil2cpp/include" ${PODS_LIBRARY_PATHS};
-```
 
 <br />
  

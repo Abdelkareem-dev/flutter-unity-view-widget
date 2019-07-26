@@ -17,5 +17,6 @@ Flutter unity 3D widget for embedding unity in flutter
   s.public_header_files = 'Classes/**/*.h'
   s.swift_version = '4.1'
   s.ios.deployment_target = '9.0'
+  s.xcconfig = { 'USER_HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/../UnityExport/Classes" "${PODS_ROOT}/../UnityExport/Classes/Unity" "${PODS_ROOT}/../UnityExport/Libraries"'}
 end
 
