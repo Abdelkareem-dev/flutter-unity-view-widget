@@ -1,4 +1,3 @@
-/*
 #include "RegisterMonoModules.h"
 #include "RegisterFeatures.h"
 #include <csignal>
@@ -74,6 +73,7 @@ extern "C" void UnityResumeCommand()
         UnityPause(0);
     });
 }
+
 
 @implementation UnityUtils
 
@@ -157,6 +157,7 @@ static BOOL _isUnityReady = NO;
     });
 }
 
+
 extern "C" void onUnityMessage(const char* message)
 {
     for (id<UnityEventListener> listener in mUnityEventListeners) {
@@ -175,4 +176,4 @@ extern "C" void onUnityMessage(const char* message)
 }
 
 @end
-*/
+
